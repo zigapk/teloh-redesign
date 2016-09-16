@@ -1,0 +1,27 @@
+#paralax {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/night.jpg") no-repeat fixed center;
+    height: 90vh;
+
+}
+
+#paralax > .row > form {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 46px;
+    padding-right: 46px;
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.9),
+            rgba(0, 0, 0, 0.9)
+    );
+    border-radius: 8px;
+}
+
+.input-field {
+    width: 30vw;
+}
+
+@media (min-width: 767px) {
+    #paralax {
+        height: 50vh;
+    }
+}
