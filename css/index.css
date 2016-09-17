@@ -1,19 +1,19 @@
 #paralax {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/night.jpg") no-repeat fixed center;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../img/night.jpg") no-repeat fixed center;
     height: 90vh;
 
 }
 
-#paralax > .row > form {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 46px;
-    padding-right: 46px;
-    background: linear-gradient(
-            rgba(0, 0, 0, 0.9),
-            rgba(0, 0, 0, 0.9)
-    );
-    border-radius: 8px;
+iframe {
+    border: none;
+    width: 90%;
+    max-width: 500px;
+}
+
+#paralax > .row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .input-field {

@@ -9,6 +9,9 @@
 
     <link rel="stylesheet" href="css/materialize/css/materialize.min.css">
     <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reveal_effect.css">
+    <link rel="stylesheet" href="css/text_input_effect.css">
 
     <script src="js/jquery-3.1.0.min.js"></script>
     <script src="css/materialize/js/materialize.min.js"></script>
@@ -17,7 +20,7 @@
 
 <nav class="black" role="navigation">
     <div class="nav-wrapper container">
-        <a id="logo-container" href="#" class="brand-logo teal-text">Logo</a>
+        <a id="logo-container" href="#" class="brand-logo teal-text">Teloh</a>
         <ul class="right">
             <li><a href="#">Moj teloh</a></li>
         </ul>
@@ -30,19 +33,30 @@
 
 <div id="paralax" class="z-depth-2 valign-wrapper">
     <div class="row">
-        <form class="z-depth-2">
-            <div>
-                <div class="input-field">
-                    <input id="search" class="teal-text" type="text">
-                    <label for="search">Išči</label>
-                </div>
-            </div>
-        </form>
+        <iframe src="search_bar.html"></iframe>
     </div>
 </div>
 
-<div class="container">
-
+<div class="container content">
+    <div class="grid">
+        <figure class="effect-ming">
+            <img src="img/useful_images/31.jpg"/>
+            <figcaption>
+                <h2>Preišči <span>Teloh</span></h2>
+                <p>in najdi mobilno napravo ali dodatek zase</p>
+                <a href="#">View more</a>
+            </figcaption>
+        </figure>
+        <figure class="effect-ming">
+            <img src="img/useful_images/8.jpg"/>
+            <figcaption>
+                <h2>Objavi <span>oglas</span></h2>
+                <p>in prodaj svoj stari telefon, ovitek ali slušalke</p>
+                <a href="#">View more</a>
+            </figcaption>
+        </figure>
+    </div>
+    <div class="grid" style="height: 200px"></div>
 </div>
 
 </body>
