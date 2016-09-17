@@ -1,3 +1,11 @@
 .button-collapse {
     color: #26a69a;
 }
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
+}
