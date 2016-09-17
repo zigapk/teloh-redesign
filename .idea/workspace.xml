@@ -2,41 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d463488-b535-4ba4-8bf1-36573cd69e51" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/reveal_effect.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/search_bar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/text_input_effect.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search_bar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Bold.eot" afterPath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Bold.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Bold.ttf" afterPath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Bold.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Bold.woff" afterPath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Bold.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Bold.woff2" afterPath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Bold.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Light.eot" afterPath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Light.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Light.ttf" afterPath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Light.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Light.woff" afterPath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Light.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Light.woff2" afterPath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Light.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Medium.eot" afterPath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Medium.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Medium.ttf" afterPath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Medium.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Medium.woff" afterPath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Medium.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Medium.woff2" afterPath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Medium.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Regular.eot" afterPath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Regular.ttf" afterPath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Regular.woff" afterPath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Regular.woff2" afterPath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Regular.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Thin.eot" afterPath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Thin.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Thin.ttf" afterPath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Thin.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Thin.woff" afterPath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Thin.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Thin.woff2" afterPath="$PROJECT_DIR$/css/materialize/fonts/roboto/Roboto-Thin.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/night.jpg" afterPath="$PROJECT_DIR$/img/night.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/default.css" afterPath="$PROJECT_DIR$/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/LICENSE" afterPath="$PROJECT_DIR$/css/materialize/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/css/materialize.css" afterPath="$PROJECT_DIR$/css/materialize/css/materialize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/css/materialize.min.css" afterPath="$PROJECT_DIR$/css/materialize/css/materialize.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/js/materialize.js" afterPath="$PROJECT_DIR$/css/materialize/js/materialize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize/js/materialize.min.js" afterPath="$PROJECT_DIR$/css/materialize/js/materialize.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery-3.1.0.min.js" afterPath="$PROJECT_DIR$/js/jquery-3.1.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/17.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/18.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/19.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/20.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/21.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/22.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/23.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/25.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/26.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/27.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/28.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/29.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/30.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/31.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/32.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/33.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/useful_images/9.jpg" />
     </list>
     <ignored path="html.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -270,7 +268,7 @@
       <option name="presentableId" value="Default" />
       <updated>1474040568592</updated>
       <workItem from="1474040570835" duration="5911000" />
-      <workItem from="1474120523002" duration="4551000" />
+      <workItem from="1474120523002" duration="4595000" />
     </task>
     <task id="LOCAL-00001" summary="some work done">
       <created>1474044247886</created>
@@ -279,11 +277,18 @@
       <option name="project" value="LOCAL" />
       <updated>1474044247886</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add search bar and reveal effects">
+      <created>1474128134170</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1474128134170</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10462000" />
+    <option name="totallyTimeSpent" value="10506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -320,7 +325,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some work done" />
-    <option name="LAST_COMMIT_MESSAGE" value="some work done" />
+    <MESSAGE value="add search bar and reveal effects" />
+    <option name="LAST_COMMIT_MESSAGE" value="add search bar and reveal effects" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
