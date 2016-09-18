@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37dbca07-10d7-48d3-82dc-1254df0771cc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/components/search_item_reveal_effect.css" afterPath="$PROJECT_DIR$/css/components/search_item_reveal_effect.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/search.css" afterPath="$PROJECT_DIR$/css/search.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.html" afterPath="$PROJECT_DIR$/search.html" />
-    </list>
+    <list default="true" id="37dbca07-10d7-48d3-82dc-1254df0771cc" name="Default" comment="" />
     <ignored path="html.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -89,7 +84,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="-744" />
     <option name="width" value="1301" />
     <option name="height" value="744" />
   </component>
@@ -257,7 +252,7 @@
       <updated>1474208428438</updated>
       <workItem from="1474208430834" duration="7163000" />
       <workItem from="1474216428043" duration="1018000" />
-      <workItem from="1474218382071" duration="2056000" />
+      <workItem from="1474218382071" duration="2114000" />
     </task>
     <task id="LOCAL-00001" summary="add search site, fix search_bar and fix some other small issues">
       <created>1474210045428</created>
@@ -294,14 +289,28 @@
       <option name="project" value="LOCAL" />
       <updated>1474220166876</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add footer">
+      <created>1474220444698</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1474220444698</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add images">
+      <created>1474220483230</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1474220483230</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10237000" />
+    <option name="totallyTimeSpent" value="10295000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <frame x="65" y="-744" width="1301" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -339,7 +348,9 @@
     <MESSAGE value="add search items" />
     <MESSAGE value="add note" />
     <MESSAGE value="add search navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="add search navigation" />
+    <MESSAGE value="add footer" />
+    <MESSAGE value="add images" />
+    <option name="LAST_COMMIT_MESSAGE" value="add images" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
