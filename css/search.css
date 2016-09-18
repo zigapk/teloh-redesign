@@ -2,9 +2,24 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: -100px;
+    margin-bottom: -46px;
 }
 
 figcaption > button {
     background: transparent;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.dotstyle {
+    display: flex;
+    justify-content: center;
 }

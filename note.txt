@@ -1,2 +1,8 @@
 http://tympanus.net/ license to add
 search view images must be 250x437
+
+
+useful articles:
+http://tympanus.net/Development/SVGDrawingAnimation/
+http://tympanus.net/Development/ProgressButtonStyles/
+http://tympanus.net/codrops/2016/09/02/inspiration-navigation-indicators/
