@@ -4,12 +4,6 @@
 
 }
 
-iframe {
-    border: none;
-    width: 90%;
-    max-width: 500px;
-}
-
 #paralax > .row {
     width: 100%;
     display: flex;

@@ -113,7 +113,7 @@
 }
 
 .input__field--shoko:focus + .input__label--shoko,
-.input--filled .input__label--shoko {
+.input--filled .input__label--shoko, .input__field--shoko:invalid + .input__label--shoko {
     color: #009688;
     -webkit-transform: translate3d(0, 3.5em, 0) scale3d(0.85, 0.85, 1);
     transform: translate3d(0, 3.5em, 0) scale3d(0.85, 0.85, 1);

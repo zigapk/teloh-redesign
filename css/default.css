@@ -9,3 +9,9 @@
 .text-align-right {
     text-align: right;
 }
+
+iframe {
+    border: none;
+    width: 90%;
+    max-width: 500px;
+}
