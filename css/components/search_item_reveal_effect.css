@@ -12,9 +12,9 @@
     color: #333;
 }
 
-.grid a:nth-child(odd) {
+/*.grid a:nth-child(odd) {
     margin: 30px 0 -30px 0;
-}
+}*/
 
 .grid figure {
     position: relative;
