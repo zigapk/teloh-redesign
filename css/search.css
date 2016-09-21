@@ -25,3 +25,55 @@ figcaption > button {
     margin-top: -32px;
     margin-bottom: 64px;
 }
+
+#filter_menu_toggle_button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.side-nav {
+    background: #101010;
+}
+
+.side-nav > li {
+    width: 100%;
+    text-align: center;
+}
+
+.side-nav > li:hover, .side-nav > li.active {
+    background: #212121;
+}
+
+.side-nav > li > h5:hover {
+    background: #101010 !important;
+}
+
+.side-nav > li > a, i.material-icons, li > .input-field {
+    color: #BDBDBD !important;
+}
+
+li > .input-field {
+    width: 80%;
+    padding-top: -16px;
+    margin-top: 0;
+    margin-bottom: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h5 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300 !important;
+    color: #009688 !important;
+}
+
+a > p {
+    margin: 0;
+}
+
+.input-field label.active {
+    -webkit-transform: translateY(50%) !important;
+    transform: translateY(50%) !important;
+}

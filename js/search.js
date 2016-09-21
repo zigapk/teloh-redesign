@@ -33,6 +33,7 @@ function init() {
 $(document).ready(function () {
 
     init();
+    $(".button-collapse").sideNav();
 
     setTimeout(function () {
         var q = getUrlVars()['q'];
