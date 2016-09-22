@@ -1,6 +1,9 @@
+LICENSES TO ADD!!!:
+https://github.com/ksylvest/jquery-lighter/blob/master/LICENSE
 http://tympanus.net/ license to add
-search view images must be 250x437
 
+
+search view images must be 250x43
 
 useful articles:
 http://tympanus.net/Development/SVGDrawingAnimation/
