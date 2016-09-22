@@ -9,6 +9,10 @@ img {
     margin: 4px;
 }
 
+.material-placeholder {
+    display: inline-block !important;
+}
+
 .pic-row {
     padding: 16px;
 }
@@ -16,11 +20,11 @@ img {
 #gallery_container {
     overflow: hidden;
     margin-left: -16px;
-    box-sizing: border-box;
+    height: 360px;
 }
 
 .pic-container {
     overflow-x: scroll;
-    overflow-y: hidden;
-    padding-right: 17px;
+    overflow-y: inherit;
+    padding-bottom: 17px;
 }
