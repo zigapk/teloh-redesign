@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37dbca07-10d7-48d3-82dc-1254df0771cc" name="Default" comment="ignore errors for sample publishing">
+    <list default="true" id="37dbca07-10d7-48d3-82dc-1254df0771cc" name="Default" comment="use a">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/default.css" afterPath="$PROJECT_DIR$/css/default.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/details.css" afterPath="$PROJECT_DIR$/css/details.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details.html" afterPath="$PROJECT_DIR$/details.html" />
     </list>
@@ -41,8 +40,8 @@
       <file leaf-file-name="details.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/details.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            <state relative-caret-position="144">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -101,8 +100,8 @@
         <option value="$PROJECT_DIR$/js/details.css" />
         <option value="$PROJECT_DIR$/css/search.css" />
         <option value="$PROJECT_DIR$/css/default.css" />
-        <option value="$PROJECT_DIR$/css/details.css" />
         <option value="$PROJECT_DIR$/js/details.js" />
+        <option value="$PROJECT_DIR$/css/details.css" />
         <option value="$PROJECT_DIR$/details.html" />
       </list>
     </option>
@@ -293,7 +292,7 @@
       <workItem from="1474482438085" duration="735000" />
       <workItem from="1474486650616" duration="5135000" />
       <workItem from="1474559246292" duration="3536000" />
-      <workItem from="1474568071487" duration="5047000" />
+      <workItem from="1474568071487" duration="5929000" />
     </task>
     <task id="LOCAL-00001" summary="add search site, fix search_bar and fix some other small issues">
       <created>1474210045428</created>
@@ -428,11 +427,18 @@
       <option name="project" value="LOCAL" />
       <updated>1474570852297</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add image enlarging (has issues) and hide horizontal scrollbar">
+      <created>1474573147880</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1474573147880</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31778000" />
+    <option name="totallyTimeSpent" value="32660000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
@@ -486,7 +492,8 @@
     <MESSAGE value="add spare parts filter" />
     <MESSAGE value="add sample detaisl view" />
     <MESSAGE value="ignore errors for sample publishing" />
-    <option name="LAST_COMMIT_MESSAGE" value="ignore errors for sample publishing" />
+    <MESSAGE value="add image enlarging (has issues) and hide horizontal scrollbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="add image enlarging (has issues) and hide horizontal scrollbar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -659,14 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/details.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/details.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -679,6 +678,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/details.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
       </provider>

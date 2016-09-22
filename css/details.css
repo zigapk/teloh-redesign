@@ -6,25 +6,29 @@ section {
 
 img {
     height: 300px;
-    margin: 4px;
-}
-
-.material-placeholder {
-    display: inline-block !important;
 }
 
 .pic-row {
     padding: 16px;
 }
 
+.pic-row > a {
+    height: 300px;
+    margin: 4px;
+}
+
 #gallery_container {
     overflow: hidden;
     margin-left: -16px;
-    height: 360px;
+    height: 350px;
 }
 
 .pic-container {
     overflow-x: scroll;
     overflow-y: inherit;
     padding-bottom: 17px;
+}
+
+.lighter-overlay {
+    background: rgba(0, 0, 0, 0.9);
 }
