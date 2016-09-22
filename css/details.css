@@ -32,3 +32,7 @@ img {
 .lighter-overlay {
     background: rgba(0, 0, 0, 0.9);
 }
+
+.lighter-close {
+    visibility: hidden;
+}

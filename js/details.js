@@ -6,4 +6,8 @@ $(document).ready(function(){
     $("#gallery_container").width(width_to_set)
 
     $("#gallery_last_image").css("margin-right", position.left + "px")
+
+    if(position.left == 0){
+        $("#gallery_last_image").css("margin-right", "16px")
+    }
 });
