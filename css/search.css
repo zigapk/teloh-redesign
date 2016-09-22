@@ -77,3 +77,13 @@ a > p {
     -webkit-transform: translateY(50%) !important;
     transform: translateY(50%) !important;
 }
+
+li.placeholder {
+    margin-bottom: 200px;
+}
+
+@media (min-width: 767px) {
+    li.placeholder {
+        margin-bottom: 16px;
+    }
+}
