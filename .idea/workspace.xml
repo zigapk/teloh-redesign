@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37dbca07-10d7-48d3-82dc-1254df0771cc" name="Default" comment="">
+    <list default="true" id="37dbca07-10d7-48d3-82dc-1254df0771cc" name="Default" comment="chan">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/default.css" afterPath="$PROJECT_DIR$/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/details.css" afterPath="$PROJECT_DIR$/css/details.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details.html" afterPath="$PROJECT_DIR$/details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.html" afterPath="$PROJECT_DIR$/search.html" />
     </list>
     <ignored path="html.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +26,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="details.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/details.html">
+      <file leaf-file-name="search.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/search.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
               <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="83" />
@@ -65,7 +63,6 @@
         <option value="$PROJECT_DIR$/css/components/search_item_reveal_effect.css" />
         <option value="$PROJECT_DIR$/js/search.js" />
         <option value="$PROJECT_DIR$/components/search_bar.html" />
-        <option value="$PROJECT_DIR$/search.html" />
         <option value="$PROJECT_DIR$/css/components/text_input_effect.css" />
         <option value="$PROJECT_DIR$/js/details.css" />
         <option value="$PROJECT_DIR$/css/search.css" />
@@ -74,6 +71,7 @@
         <option value="$PROJECT_DIR$/css/default.css" />
         <option value="$PROJECT_DIR$/css/details.css" />
         <option value="$PROJECT_DIR$/details.html" />
+        <option value="$PROJECT_DIR$/search.html" />
       </list>
     </option>
   </component>
@@ -264,7 +262,7 @@
       <workItem from="1474486650616" duration="5135000" />
       <workItem from="1474559246292" duration="3536000" />
       <workItem from="1474568071487" duration="6448000" />
-      <workItem from="1474575233055" duration="2041000" />
+      <workItem from="1474575233055" duration="2232000" />
     </task>
     <task id="LOCAL-00001" summary="add search site, fix search_bar and fix some other small issues">
       <created>1474210045428</created>
@@ -434,11 +432,18 @@
       <option name="project" value="LOCAL" />
       <updated>1474575310112</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="finish details page">
+      <created>1474577284008</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1474577284008</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35220000" />
+    <option name="totallyTimeSpent" value="35411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
@@ -497,7 +502,8 @@
     <MESSAGE value="add license notice" />
     <MESSAGE value="fix some issues and add missing scripts" />
     <MESSAGE value="add error override" />
-    <option name="LAST_COMMIT_MESSAGE" value="add error override" />
+    <MESSAGE value="finish details page" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish details page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -679,22 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="115" column="29" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/search.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="74" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -711,7 +701,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="74" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="83" />
