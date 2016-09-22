@@ -1,0 +1,26 @@
+section {
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: scroll;
+}
+
+img {
+    height: 300px;
+    margin: 4px;
+}
+
+.pic-row {
+    padding: 16px;
+}
+
+#gallery_container {
+    overflow: hidden;
+    margin-left: -16px;
+    box-sizing: border-box;
+}
+
+.pic-container {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-right: 17px;
+}

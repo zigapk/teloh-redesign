@@ -1,3 +1,10 @@
+#search_bar_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -46px;
+}
+
 .button-collapse {
     color: #26a69a;
 }
@@ -14,4 +21,15 @@ iframe {
     border: none;
     width: 90%;
     max-width: 500px;
+}
+
+h5 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300 !important;
+    color: #009688 !important;
+}
+
+p{
+    color: #9E9E9E
 }

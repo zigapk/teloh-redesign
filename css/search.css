@@ -1,10 +1,3 @@
-#search_bar_container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: -46px;
-}
-
 figcaption > button {
     background: transparent;
 }
@@ -60,13 +53,6 @@ li > .input-field {
     margin-bottom: 4px;
     margin-left: auto;
     margin-right: auto;
-}
-
-h5 {
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 300 !important;
-    color: #009688 !important;
 }
 
 a > p {
