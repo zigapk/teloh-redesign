@@ -77,6 +77,13 @@ img {
     text-align: center;
 }
 
+#gallery_container {
+    width: 100vw;
+}
+
+.gallery_arrow_wrapper {
+    visibility: hidden;
+}
 
 @media (min-width: 767px) {
     #details_container {
@@ -93,5 +100,17 @@ img {
 
     .container > h5 {
         text-align: left;
+    }
+
+    .gallery_arrow_wrapper {
+        visibility: visible;
+        height: 300px;
+        width: 64px;
+        position: absolute;
+    }
+
+    .gallery_arrow_wrapper > img {
+        width: 100%;
+        cursor: pointer;
     }
 }
