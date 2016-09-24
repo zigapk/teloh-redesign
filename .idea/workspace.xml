@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="37dbca07-10d7-48d3-82dc-1254df0771cc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/details.css" afterPath="$PROJECT_DIR$/css/details.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details.html" afterPath="$PROJECT_DIR$/details.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/details.js" afterPath="$PROJECT_DIR$/js/details.js" />
     </list>
     <ignored path="html.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -275,7 +272,7 @@
       <workItem from="1474559246292" duration="3536000" />
       <workItem from="1474568071487" duration="6448000" />
       <workItem from="1474575233055" duration="2265000" />
-      <workItem from="1474716841657" duration="2928000" />
+      <workItem from="1474716841657" duration="3001000" />
     </task>
     <task id="LOCAL-00001" summary="add search site, fix search_bar and fix some other small issues">
       <created>1474210045428</created>
@@ -466,11 +463,18 @@
       <option name="project" value="LOCAL" />
       <updated>1474716940018</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="implement gallery arrows">
+      <created>1474719797010</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1474719797010</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38372000" />
+    <option name="totallyTimeSpent" value="38445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -506,7 +510,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="set search_bar text to query from url" />
     <MESSAGE value="add search items" />
     <MESSAGE value="add note" />
     <MESSAGE value="add search navigation" />
@@ -531,7 +534,8 @@
     <MESSAGE value="finish details page" />
     <MESSAGE value="change some search view items" />
     <MESSAGE value="ignore error" />
-    <option name="LAST_COMMIT_MESSAGE" value="ignore error" />
+    <MESSAGE value="implement gallery arrows" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement gallery arrows" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
