@@ -4,7 +4,6 @@
     <list default="true" id="37dbca07-10d7-48d3-82dc-1254df0771cc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/login.css" afterPath="$PROJECT_DIR$/css/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.html" afterPath="$PROJECT_DIR$/login.html" />
     </list>
     <ignored path="html.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +39,8 @@
       <file leaf-file-name="login.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/login.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <state relative-caret-position="302">
+              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -232,7 +231,7 @@
       <workItem from="1474716841657" duration="3154000" />
       <workItem from="1474720302864" duration="98000" />
       <workItem from="1478887608026" duration="148000" />
-      <workItem from="1478952542390" duration="7824000" />
+      <workItem from="1478952542390" duration="8013000" />
     </task>
     <task id="LOCAL-00001" summary="add search site, fix search_bar and fix some other small issues">
       <created>1474210045428</created>
@@ -444,11 +443,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478957979525</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="fix mobile captcha">
+      <created>1478960653740</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1478960653740</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46668000" />
+    <option name="totallyTimeSpent" value="46857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="732" extended-state="6" />
@@ -502,7 +508,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add search navigation" />
     <MESSAGE value="add footer" />
     <MESSAGE value="add images" />
     <MESSAGE value="attempt to fix mixed content error" />
@@ -527,7 +532,8 @@
     <MESSAGE value="implement gallery arrows" />
     <MESSAGE value="optimize details.html" />
     <MESSAGE value="add login page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add login page" />
+    <MESSAGE value="fix mobile captcha" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix mobile captcha" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -798,8 +804,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/login.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        <state relative-caret-position="302">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding />
         </state>
       </provider>
