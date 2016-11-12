@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teloh login</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+    <link rel="stylesheet" href="css/components/normalize.css">
+    <link rel="stylesheet" href="css/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/login.css">
+
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="css/materialize/js/materialize.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="grey darken-4">
+
+<div class="row">
+    <div class="col s12 l4 offset-l4">
+        <form id="login" class="section grey darken-3 z-depth-2">
+            <div class="input-field">
+                <input autofocus id="username" type="text">
+                <label for="username">Uporabniško ime ali e-pošta</label>
+            </div>
+            <div class="input-field">
+                <input id="password" type="password">
+                <label for="password">Geslo</label>
+            </div>
+            <div class="center-align row">
+                <button class="waves-effect waves-light btn col s12 l12">Prijava</button>
+            </div>
+        </form>
+
+        <form id="signup" class="section grey darken-3 z-depth-2">
+            <div class="input-field">
+                <input id="signup_email" type="text">
+                <label for="signup_email">E-pošta</label>
+            </div>
+            <div class="input-field">
+                <input id="signup_username" type="text">
+                <label for="signup_username">Uporabniško ime</label>
+            </div>
+            <div class="input-field">
+                <input id="signup_password" type="password">
+                <label for="signup_password">Geslo</label>
+            </div>
+            <div class="input-field">
+                <input id="signup_password_repeat" type="password">
+                <label for="signup_password_repeat">Ponovno vpišite geslo</label>
+            </div>
+            <div class="g-recaptcha center-align" data-sitekey="6LfyjSMTAAAAAPZxU5djt02RA3ok1dtho_O6EKk-"></div>
+            <div class="center-align row">
+                <button class="waves-effect waves-light btn col s12 l12">Ustvari račun</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

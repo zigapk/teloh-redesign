@@ -1,0 +1,23 @@
+form {
+    margin-bottom: 16px !important;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+form > div {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+form > div.center-align {
+    margin-bottom: 0;
+}
+
+.g-recaptcha > div{
+    width: 338px !important;
+    margin-bottom: 8px;
+}
+
+body > .row > div {
+    margin-top: 32px;
+}
