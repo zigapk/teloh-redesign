@@ -1,0 +1,50 @@
+.side-nav {
+    background: #101010;
+}
+
+.side-nav > li {
+    width: 100%;
+    text-align: center;
+}
+
+.side-nav > li:hover, .side-nav > li.active {
+    background: #212121;
+}
+
+.side-nav > li > h5:hover {
+    background: #101010 !important;
+}
+
+.side-nav > li > a, i.material-icons, li > .input-field {
+    color: #BDBDBD !important;
+}
+
+.side-nav > .input-field{
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+
+.collapsible, div.collapsible-body {
+    border-color: #212121;
+}
+
+#new, #new > .material-icons{
+    color: #009688 !important;
+}
+
+#button_cancel_edit {
+    margin-right: 16px;
+}
+
+div.collapsible-header {
+    border-color: #424242;
+}
+
+#slide-out > .placeholder {
+    color: transparent;
+}
+
+/*fixes broken label position on firefox*/
+.input-field label {
+    left: 16px;
+}

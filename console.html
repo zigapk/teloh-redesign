@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Moj Teloh</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+    <link rel="stylesheet" href="css/components/normalize.css">
+    <link rel="stylesheet" href="css/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/console.css">
+
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="css/materialize/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="grey darken-4">
+<nav class="black" role="navigation">
+    <div class="nav-wrapper container">
+        <a id="logo-container" href="/" class="brand-logo teal-text">Teloh</a>
+        <ul class="right">
+            <li><a href="#">Teloh iskanje</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+            <li><a href="#">Teloh iskanje</a></li>
+        </ul>
+    </div>
+</nav>
+
+<ul id="slide-out" class="side-nav fixed">
+    <li class="placeholder">placeholder</li>
+    <li><h5>Moji oglasi</h5></li>
+    <div class="input-field">
+        <input id="search" type="text">
+        <label for="search">Išči</label>
+    </div>
+    <li><a class="waves-effect" href="#!"><i class="material-icons">smartphone</i>Oneplus 3</a></li>
+    <li><a class="waves-effect" href="#!"><i class="material-icons">headset</i>Oneplus Bullets v2</a></li>
+    <li><a class="waves-effect" href="#!"><i class="material-icons">headset</i>iPhone 6S ovitek</a></li>
+    <li><a class="waves-effect" href="#!"><i class="material-icons">build</i>Baterija za Oneplus 3</a></li>
+    <li><a class="waves-effect" href="#!"><i class="material-icons">build</i>Ekran za Oneplus 3</a></li>
+    <li>
+        <div class="divider"></div>
+    </li>
+    <li><a id="new" class="waves-effect" href="#!"><i class="material-icons teal-text">mode_edit</i>Ustvari oglas</a>
+    </li>
+    <li><a class="waves-effect" href="#!"><i class="material-icons">settings</i>Nastavitve</a></li>
+</ul>
+<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+<div class="row">
+    <div class="col s12 l7 offset-l4">
+        <ul class="collapsible grey darken-4 z-depth-2" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header active grey darken-3"><i class="material-icons">description</i>Opis
+                </div>
+                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+            </li>
+            <li>
+                <div class="collapsible-header grey darken-3"><i class="material-icons">image</i>Slike</div>
+                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+            </li>
+            <li>
+                <div class="collapsible-header grey darken-3"><i class="material-icons">whatshot</i>Dodatno oglaševanje
+                </div>
+                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+            </li>
+        </ul>
+    </div>
+    <div class="col s12 l7 offset-l4 right-align">
+        <button class="waves-effect waves-light btn grey darken-3 flat">prekliči</button>
+        <button class="waves-effect waves-light btn">shrani</button>
+    </div>
+</div>
+
+<div class="fixed-action-btn">
+    <a class="btn-floating btn-large teal">
+        <i class="large material-icons">mode_edit</i>
+    </a>
+</div>
+</body>
+</html>
