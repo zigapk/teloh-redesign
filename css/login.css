@@ -26,6 +26,10 @@ body > .row > div {
     left: 16px;
 }
 
+div > p {
+    padding-bottom: 8px;
+}
+
 @media screen and (max-width: 600px) {
     #rc-imageselect, .g-recaptcha {
         transform: scale(1);
