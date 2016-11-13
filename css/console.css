@@ -40,8 +40,10 @@ div.collapsible-header {
     border-color: #424242;
 }
 
-#slide-out > .placeholder {
+#slide-out > .placeholder, #slide-out > .placeholder:hover {
+    background: transparent;
     color: transparent;
+    height: 64px;
 }
 
 /*fixes broken label position on firefox*/
@@ -53,4 +55,18 @@ div.collapsible-header {
     position: absolute;
     top: 20px;
     left: 20px;
+}
+
+nav, main, footer {
+    padding-left: 300px;
+}
+
+main {
+    margin-top: 32px;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
 }

@@ -20,13 +20,13 @@
 <body class="grey darken-4">
 <nav class="black" role="navigation">
     <div class="nav-wrapper container">
-        <a id="logo-container" href="/" class="brand-logo teal-text">Teloh</a>
+        <a id="logo-container" href="/" class="brand-logo teal-text">Moj Teloh</a>
         <ul class="right">
-            <li><a href="#">Teloh iskanje</a></li>
+            <li><a href="mama">Nastavitve</a></li>
         </ul>
 
         <ul id="nav-mobile" class="side-nav">
-            <li><a href="#">Teloh iskanje</a></li>
+            <a href="mama"><i class="material-icons">settings</i>Nastavitve</a>
         </ul>
     </div>
 </nav>
@@ -34,6 +34,7 @@
 <ul id="slide-out" class="side-nav fixed">
     <li class="placeholder">placeholder</li>
     <li><h5>Moji oglasi</h5></li>
+    <li><a class="waves-effect" href="#!"><i class="material-icons teal-text">mode_edit</i>Ustvari oglas</a></li>
     <div class="input-field">
         <input id="search" type="text">
         <label for="search">Išči</label>
@@ -41,20 +42,14 @@
     <li><a class="waves-effect" href="#!"><i class="material-icons">smartphone</i>Oneplus 3</a></li>
     <li><a class="waves-effect" href="#!"><i class="material-icons">headset</i>Oneplus Bullets v2</a></li>
     <li><a class="waves-effect" href="#!"><i class="material-icons">headset</i>iPhone 6S ovitek</a></li>
-    <li><a class="waves-effect" href="#!"><i class="material-icons">build</i>Baterija za Oneplus 3</a></li>
     <li><a class="waves-effect" href="#!"><i class="material-icons">build</i>Ekran za Oneplus 3</a></li>
-    <li>
-        <div class="divider"></div>
-    </li>
-    <li><a id="new" class="waves-effect" href="#!"><i class="material-icons teal-text">mode_edit</i>Ustvari oglas</a>
-    </li>
-    <li><a class="waves-effect" href="#!"><i class="material-icons">settings</i>Nastavitve</a></li>
+    <li><a class="waves-effect" href="#!"><i class="material-icons">build</i>Baterija za Oneplus 3</a></li>
 </ul>
 <a id="menu_toggle_button" href="#" data-activates="slide-out" class="button-collapse"><i
         class="material-icons">menu</i></a>
 
-<div class="row">
-    <div class="col s12 l7 offset-l4">
+<main class="row">
+    <div class="col s12 l10 offset-l1">
         <ul class="collapsible grey darken-4 z-depth-2" data-collapsible="accordion">
             <li>
                 <div class="collapsible-header active grey darken-3"><i class="material-icons">description</i>Opis
@@ -63,8 +58,8 @@
                     <form>
                         <div class="row">
                             <div class="input-field col l6 s12">
-                                <input id="title" type="text" required>
-                                <label for="title">Naslov</label>
+                                <input id="title" type="text" required pattern="/^[a-zA-Z]{8,128}$/">
+                                <label for="title">Naslov (8 - 128 znakov)</label>
                             </div>
                         </div>
                         <div class="row">
@@ -79,36 +74,45 @@
                                     <label for="dodatki">Dodatki</label>
                                 </div>
                                 <div>
-                                    <input class="with-gap" name="group1" type="radio" id="rezervni_deli"/>
+                                    <input name="group1" type="radio" id="rezervni_deli"/>
                                     <label for="rezervni_deli">Rezervni deli</label>
                                 </div>
                             </div>
                             <div class="input-field col s12 l4">
                                 <h6>Stanje:</h6>
 
-                                <div><input type="checkbox" id="test5" />
-                                <label for="test5">novo</label>
+                                <div><input type="checkbox" id="test5"/>
+                                    <label for="test5">novo</label>
                                 </div>
                             </div>
-                            <div class="input-field col s12 l4">
-                                <label for="device_picker">Izberi napravo</label>
-                                <input type="text" id="device_picker" list="devices" >
+                            <div class="col s12 l4">
+                                <h6>Naprava/kompatibilno z napravo:</h6>
+                                <div class="input-field">
+                                    <label for="device_picker">Izberi napravo</label>
+                                    <input type="text" id="device_picker" list="devices">
 
-                                <datalist id="devices">
-                                    <option value="Več naprav, podrobneje bom opisal v opisu">
-                                    <option value="Oneplus One">
-                                    <option value="Oneplus X">
-                                    <option value="Oneplus 2">
-                                    <option value="Oneplus 3">
-                                    <option value="iPhone 6">
-                                    <option value="iPhone 7">
-                                    <option value="Motorola Moto G">
-                                    <option value="Nexus 5">
-                                    <option value="Nexus 4">
-                                    <option value="Samsung Galaxy S7 edge">
-                                    <option value="Samsung Galaxy S7">
-                                    <option value="CSamsung Galaxy S6">
-                                </datalist>
+                                    <datalist id="devices">
+                                        <option value="Več naprav, podrobneje bom opisal v opisu">
+                                        <option value="Oneplus One">
+                                        <option value="Oneplus X">
+                                        <option value="Oneplus 2">
+                                        <option value="Oneplus 3">
+                                        <option value="iPhone 6">
+                                        <option value="iPhone 7">
+                                        <option value="Motorola Moto G">
+                                        <option value="Nexus 5">
+                                        <option value="Nexus 4">
+                                        <option value="Samsung Galaxy S7 edge">
+                                        <option value="Samsung Galaxy S7">
+                                        <option value="CSamsung Galaxy S6">
+                                    </datalist>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea required id="description" class="materialize-textarea" pattern="/^[a-zA-Z]{64,4096}$/"></textarea>
+                                <label for="description">Podroben opis (64 - 4096 znakov)</label>
                             </div>
                         </div>
                     </form>
@@ -129,12 +133,6 @@
         <button class="waves-effect waves-light btn grey darken-3 flat">prekliči</button>
         <button class="waves-effect waves-light btn">shrani</button>
     </div>
-</div>
-
-<div class="fixed-action-btn">
-    <a class="btn-floating btn-large teal">
-        <i class="large material-icons">mode_edit</i>
-    </a>
-</div>
+</main>
 </body>
 </html>
