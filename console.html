@@ -50,7 +50,8 @@
     </li>
     <li><a class="waves-effect" href="#!"><i class="material-icons">settings</i>Nastavitve</a></li>
 </ul>
-<a id="menu_toggle_button" href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+<a id="menu_toggle_button" href="#" data-activates="slide-out" class="button-collapse"><i
+        class="material-icons">menu</i></a>
 
 <div class="row">
     <div class="col s12 l7 offset-l4">
@@ -61,9 +62,53 @@
                 <div class="collapsible-body">
                     <form>
                         <div class="row">
-                            <div class="input-field col l5 s12">
-                                <input id="title" type="text">
-                                <label for="title">Išči</label>
+                            <div class="input-field col l6 s12">
+                                <input id="title" type="text" required>
+                                <label for="title">Naslov</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12 l4">
+                                <h6>Izberi kategorijo:</h6>
+                                <div>
+                                    <input name="group1" type="radio" id="mobilne_naprave"/>
+                                    <label for="mobilne_naprave">Mobilne naprave</label>
+                                </div>
+                                <div>
+                                    <input name="group1" type="radio" id="dodatki"/>
+                                    <label for="dodatki">Dodatki</label>
+                                </div>
+                                <div>
+                                    <input class="with-gap" name="group1" type="radio" id="rezervni_deli"/>
+                                    <label for="rezervni_deli">Rezervni deli</label>
+                                </div>
+                            </div>
+                            <div class="input-field col s12 l4">
+                                <h6>Stanje:</h6>
+
+                                <div><input type="checkbox" id="test5" />
+                                <label for="test5">novo</label>
+                                </div>
+                            </div>
+                            <div class="input-field col s12 l4">
+                                <label for="device_picker">Izberi napravo</label>
+                                <input type="text" id="device_picker" list="devices" >
+
+                                <datalist id="devices">
+                                    <option value="Več naprav, podrobneje bom opisal v opisu">
+                                    <option value="Oneplus One">
+                                    <option value="Oneplus X">
+                                    <option value="Oneplus 2">
+                                    <option value="Oneplus 3">
+                                    <option value="iPhone 6">
+                                    <option value="iPhone 7">
+                                    <option value="Motorola Moto G">
+                                    <option value="Nexus 5">
+                                    <option value="Nexus 4">
+                                    <option value="Samsung Galaxy S7 edge">
+                                    <option value="Samsung Galaxy S7">
+                                    <option value="CSamsung Galaxy S6">
+                                </datalist>
                             </div>
                         </div>
                     </form>
