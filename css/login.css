@@ -21,6 +21,11 @@ body > .row > div {
     margin-top: 32px;
 }
 
+/*fixes broken label position on firefox*/
+.input-field label {
+    left: 16px;
+}
+
 @media screen and (max-width: 600px) {
     #rc-imageselect, .g-recaptcha {
         transform: scale(1);
