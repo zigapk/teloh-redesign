@@ -48,3 +48,9 @@ div.collapsible-header {
 .input-field label {
     left: 16px;
 }
+
+#menu_toggle_button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}

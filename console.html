@@ -14,6 +14,7 @@
 
     <script src="js/jquery-3.1.0.min.js"></script>
     <script src="css/materialize/js/materialize.min.js"></script>
+    <script src="js/console.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body class="grey darken-4">
@@ -49,7 +50,7 @@
     </li>
     <li><a class="waves-effect" href="#!"><i class="material-icons">settings</i>Nastavitve</a></li>
 </ul>
-<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+<a id="menu_toggle_button" href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 
 <div class="row">
     <div class="col s12 l7 offset-l4">
@@ -57,7 +58,16 @@
             <li>
                 <div class="collapsible-header active grey darken-3"><i class="material-icons">description</i>Opis
                 </div>
-                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                <div class="collapsible-body">
+                    <form>
+                        <div class="row">
+                            <div class="input-field col l5 s12">
+                                <input id="title" type="text">
+                                <label for="title">Išči</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </li>
             <li>
                 <div class="collapsible-header grey darken-3"><i class="material-icons">image</i>Slike</div>
