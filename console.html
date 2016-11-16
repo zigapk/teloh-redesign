@@ -21,7 +21,7 @@
 <body class="grey darken-4">
 <nav class="black" role="navigation">
     <div class="nav-wrapper container">
-        <a id="logo-container" href="/" class="brand-logo teal-text">Moj Teloh</a>
+        <a id="logo-container" href="/" class="brand-logo teal-text hide-on-small-only">Moj Teloh</a>
         <ul class="right">
             <li><a href="mama">Nastavitve</a></li>
         </ul>
@@ -112,7 +112,8 @@
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
-                                <textarea required id="description" class="materialize-textarea" pattern="/^[a-zA-Z]{64,4096}$/"></textarea>
+                                <textarea required id="description" class="materialize-textarea"
+                                          pattern="/^[a-zA-Z]{64,4096}$/"></textarea>
                                 <label for="description">Podroben opis (64 - 4096 znakov)</label>
                             </div>
                         </div>
@@ -121,7 +122,28 @@
             </li>
             <li>
                 <div class="collapsible-header grey darken-3"><i class="material-icons">image</i>Slike</div>
-                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                <div class="collapsible-body">
+                    <form id="slike_form">
+                        <h5 class="row">Slike:</h5>
+                        <div class="row">
+                            <div class="progress col s4">
+                                <div class="determinate" style="width: 70%"></div>
+                            </div>
+                            <h6 class="truncate col s8">mami.jpg</h6>
+                        </div>
+                        <div class="row">
+                            <div class="progress col s4">
+                                <div class="determinate" style="width: 70%"></div>
+                            </div>
+                            <h6 class="truncate col s8">zelo zelo doug text. zelo zelo doug text. zelo zelo doug text.
+                                zelo zelo doug text. zelo zelo doug text. zelo zelo doug text. zelo zelo doug text. zelo
+                                zelo doug text. .png</h6>
+                        </div>
+                        <div class="row">
+                            <a class="waves-effect waves-light btn grey darken-3"><i class="material-icons left">add</i>dodaj</a>
+                        </div>
+                    </form>
+                </div>
             </li>
             <li>
                 <div class="collapsible-header grey darken-3"><i class="material-icons">whatshot</i>Dodatno oglaševanje

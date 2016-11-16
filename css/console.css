@@ -46,6 +46,14 @@ div.collapsible-header {
     height: 64px;
 }
 
+#slike_form{
+    padding: 0 0.75rem
+}
+
+.progress {
+    margin-top: 12px;
+}
+
 /*fixes broken label position on firefox*/
 .input-field label {
     left: 16px;
