@@ -65,6 +65,14 @@ div.collapsible-header {
     left: 20px;
 }
 
+.header_button {
+    margin-top: 3px;
+}
+
+li > a.inactive, li > a.inactive > i {
+    color: #424242 !important;
+}
+
 nav, main, footer {
     padding-left: 300px;
 }
