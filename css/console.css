@@ -73,6 +73,10 @@ li > a.inactive, li > a.inactive > i {
     color: #424242 !important;
 }
 
+li > a.expiring, li > a.expiring > i {
+    color: #009688 !important;
+}
+
 nav, main, footer {
     padding-left: 300px;
 }
