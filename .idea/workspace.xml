@@ -29,12 +29,32 @@
       <file leaf-file-name="console.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/console.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="152" column="61" selection-start-line="152" selection-start-column="61" selection-end-line="152" selection-end-column="61" />
+            <state relative-caret-position="18">
+              <caret line="43" column="136" selection-start-line="43" selection-start-column="136" selection-end-line="43" selection-end-column="136" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#li#1;n#ul#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#1;n#li#1;n#ul#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="details.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/details.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="details.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/details.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="122" column="75" selection-start-line="122" selection-start-column="74" selection-end-line="122" selection-end-column="75" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -276,7 +296,7 @@
       <workItem from="1479107175349" duration="1373000" />
       <workItem from="1479280452168" duration="2047000" />
       <workItem from="1479307422344" duration="1825000" />
-      <workItem from="1479479635516" duration="3584000" />
+      <workItem from="1479479635516" duration="3905000" />
     </task>
     <task id="LOCAL-00001" summary="add search site, fix search_bar and fix some other small issues">
       <created>1474210045428</created>
@@ -586,11 +606,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479555339645</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="add file input button">
+      <created>1479555844321</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1479555844321</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75165000" />
+    <option name="totallyTimeSpent" value="75486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="737" extended-state="0" />
@@ -644,7 +671,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ignore errors for sample publishing" />
     <MESSAGE value="add image enlarging (has issues) and hide horizontal scrollbar" />
     <MESSAGE value="use another lib for image enlargement to fix previous commit's issues" />
     <MESSAGE value="add license notice" />
@@ -669,7 +695,8 @@
     <MESSAGE value="add inactive components" />
     <MESSAGE value="add expiring coloring" />
     <MESSAGE value="add truncate to console titles" />
-    <option name="LAST_COMMIT_MESSAGE" value="add truncate to console titles" />
+    <MESSAGE value="add file input button" />
+    <option name="LAST_COMMIT_MESSAGE" value="add file input button" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -950,13 +977,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/details.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -968,13 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1024,10 +1037,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="122" column="75" selection-start-line="122" selection-start-column="74" selection-end-line="122" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/details.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/console.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="152" column="61" selection-start-line="152" selection-start-column="61" selection-end-line="152" selection-end-column="61" />
+        <state relative-caret-position="18">
+          <caret line="43" column="136" selection-start-line="43" selection-start-column="136" selection-end-line="43" selection-end-column="136" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#li#1;n#ul#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#1;n#li#1;n#ul#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
