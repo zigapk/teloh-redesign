@@ -5,3 +5,8 @@ $(document).ready(function () {
 
     $('select').material_select();
 });
+
+function clearNavSearch() {
+    $("#search").val("");
+    $("#search").focus();
+}
