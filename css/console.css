@@ -92,6 +92,10 @@ main {
     cursor: pointer;
 }
 
+.collapsible-header > span.badge.right {
+    position: relative !important;
+}
+
 @media only screen and (max-width : 992px) {
     nav, main, footer {
         padding-left: 0;
