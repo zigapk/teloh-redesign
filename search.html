@@ -6,7 +6,8 @@
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+    <meta name="theme-color" content="#212121">
 
     <link rel="stylesheet" href="css/components/normalize.css">
     <link rel="stylesheet" href="css/materialize/css/materialize.min.css">
@@ -23,18 +24,20 @@
 </head>
 <body class="grey darken-4">
 
-<nav class="black" role="navigation">
-    <div class="nav-wrapper container">
-        <a id="logo-container" href="/" class="brand-logo teal-text">Teloh</a>
-        <ul class="right">
-            <li><a href="#">Moj teloh</a></li>
-        </ul>
+<div class="navbar-fixed">
+    <nav class="black" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="/" class="brand-logo teal-text">Teloh</a>
+            <ul class="right">
+                <li><a href="#">Moj teloh</a></li>
+            </ul>
 
-        <ul id="nav-mobile" class="side-nav">
-            <li><a href="#">Moj Teloh</a></li>
-        </ul>
-    </div>
-</nav>
+            <ul id="nav-mobile" class="side-nav">
+                <li><a href="#">Moj Teloh</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
 
 <a id="filter_menu_toggle_button" href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">filter_list</i></a>
 <ul id="slide-out" class="side-nav">
@@ -55,25 +58,27 @@
         <input type="checkbox" id="accessories" checked="checked"/>
         <label for="accessories">Dodatki</label>
     </p></a></li>
-    <li><div class="input-field">
-        <label for="device_picker">Izberi napravo</label>
-        <input type="text" id="device_picker" list="devices" >
+    <li>
+        <div class="input-field">
+            <label for="device_picker">Izberi napravo</label>
+            <input type="text" id="device_picker" list="devices">
 
-        <datalist id="devices">
-            <option value="Oneplus One">
-            <option value="Oneplus X">
-            <option value="Oneplus 2">
-            <option value="Oneplus 3">
-            <option value="iPhone 6">
-            <option value="iPhone 7">
-            <option value="Motorola Moto G">
-            <option value="Nexus 5">
-            <option value="Nexus 4">
-            <option value="Samsung Galaxy S7 edge">
-            <option value="Samsung Galaxy S7">
-            <option value="CSamsung Galaxy S6">
-        </datalist>
-    </div></li>
+            <datalist id="devices">
+                <option value="Oneplus One">
+                <option value="Oneplus X">
+                <option value="Oneplus 2">
+                <option value="Oneplus 3">
+                <option value="iPhone 6">
+                <option value="iPhone 7">
+                <option value="Motorola Moto G">
+                <option value="Nexus 5">
+                <option value="Nexus 4">
+                <option value="Samsung Galaxy S7 edge">
+                <option value="Samsung Galaxy S7">
+                <option value="CSamsung Galaxy S6">
+            </datalist>
+        </div>
+    </li>
 
     <li><a href="#!"><p>
         <input type="checkbox" id="new_only"/>
