@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ project.chat_name }}</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="theme-color" content="#212121">
+
+    <link rel="stylesheet" href="css/components/normalize.css">
+    <link rel="stylesheet" href="css/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/chat.css">
+
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="css/materialize/js/materialize.min.js"></script>
+    <script src="js/chat.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="grey darken-4">
+
+<div class="navbar-fixed">
+    <nav class="black" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="/" class="brand-logo teal-text hide-on-small-only">{{ project.chat_name }}</a>
+            <ul class="right">
+                <li><a href="/self">Konzola</a></li>
+                <li><a href="mama">Nastavitve</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="side-nav">
+                <a href="mama">Konzola</a>
+                <a href="mama">Nastavitve</a>
+            </ul>
+        </div>
+    </nav>
+    <a id="menu_toggle_button" href="#" data-activates="slide-out" class="button-collapse hide-on-large-only"><i
+            class="material-icons">menu</i></a>
+</div>
+
+<ul id="slide-out" class="side-nav fixed">
+    <li class="placeholder">placeholder</li>
+    <li><h5>Moji pogovori</h5></li>
+    <div class="input-field">
+        <input id="search" type="text">
+        <label for="search">Išči</label>
+        <i id="search_clear_icon" class="material-icons" onclick="clearNavSearch()">clear</i>
+    </div>
+    <li><a class="waves-effect truncate" href="#!"><i class="material-icons">person</i><span class="new badge"
+                                                                                             data-badge-caption="">4</span>vidd</a>
+    </li>
+    <li><a class="waves-effect truncate" href="#!"><i class="material-icons">person</i><span class="new badge"
+                                                                                             data-badge-caption="">1</span>zigapk</a>
+    </li>
+    <li><a class="waves-effect truncate" href="#!"><i class="material-icons">person</i>klemenkavcic</a></li>
+    <li><a class="waves-effect truncate" href="#!"><i class="material-icons">person</i>jajce3</a></li>
+</ul>
+
+<main class="row">
+    <div class="col s12 l10 offset-l1">
+        <div class="grey darken-4 z-depth-2">
+            <div class="row container">
+                <h6>vidd</h6>
+                <div class="grey-text text-darken-2">11. 11. 2016 10:32</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet lorem quis faucibus feugiat. Integer quis vehicula orci, sed finibus massa. Vivamus ultricies laoreet turpis malesuada laoreet. Nam nisi mauris, pharetra et elit et, ultrices ultrices erat. Vestibulum imperdiet consectetur velit sed fringilla. Quisque tempus mattis sodales.</p>
+            </div>
+            <div class="row divider grey darken-3"></div>
+            <div class="row container">
+                <h6>jaz</h6>
+                <div class="grey-text text-darken-2">11. 11. 2016 14:38</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet lorem quis faucibus feugiat. Integer quis vehicula orci, sed finibus massa. Vivamus ultricies laoreet turpis malesuada laoreet. Nam nisi mauris, pharetra et elit et, ultrices ultrices erat. Vestibulum imperdiet consectetur velit sed fringilla. Quisque tempus mattis sodales.</p>
+            </div>
+            <div class="row divider grey darken-3"></div>
+            <div class="row container">
+                <form>
+                    <div class="row">
+                        <div class="input-field col s12">
+                                <textarea required id="description" class="materialize-textarea"
+                                          pattern="/^[a-zA-Z]{64,4096}$/"></textarea>
+                            <label for="description">Odgovori</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <a class="waves-effect waves-light btn right"><i class="material-icons left">send</i>pošlji</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
