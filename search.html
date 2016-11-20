@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Teloh - rezultati iskanja</title>
+    <title>{{ project.name }} - rezultati iskanja</title>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
@@ -27,13 +27,13 @@
 <div class="navbar-fixed">
     <nav class="black" role="navigation">
         <div class="nav-wrapper container">
-            <a id="logo-container" href="/" class="brand-logo teal-text">Teloh</a>
+            <a id="logo-container" href="/" class="brand-logo teal-text">{{ project.name }}</a>
             <ul class="right">
-                <li><a href="#">Moj teloh</a></li>
+                <li><a href="#">{{ project.console_name }}</a></li>
             </ul>
 
             <ul id="nav-mobile" class="side-nav">
-                <li><a href="#">Moj Teloh</a></li>
+                <li><a href="#">{{ project.console_name }}</a></li>
             </ul>
         </div>
     </nav>
@@ -217,14 +217,14 @@
                     <li><a class="grey-text text-lighten-3" href="#!">Pogoji uporabe</a></li>
                     <li><a class="grey-text text-lighten-3" href="#!">Piškotki</a></li>
                     <li><a class="grey-text text-lighten-3" href="#!">Pomoč</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Teloh ekipa</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">{{ project.name }} ekipa</a></li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="footer-copyright">
         <div class="container">
-            © 2016 Teloh
+            © 2016 {{ project.name }}
         </div>
     </div>
 </footer>
