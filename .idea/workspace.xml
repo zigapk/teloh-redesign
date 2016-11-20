@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="37dbca07-10d7-48d3-82dc-1254df0771cc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat.html" afterPath="$PROJECT_DIR$/chat.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console.html" afterPath="$PROJECT_DIR$/console.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.html" afterPath="$PROJECT_DIR$/login.html" />
     </list>
     <ignored path="html.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,24 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="console.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/console.html">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#li#1;n#ul#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#1;n#li#1;n#ul#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="78">
+              <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chat.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chat.html">
+      <file leaf-file-name="login.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/login.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+            <state relative-caret-position="360">
+              <caret line="26" column="1" selection-start-line="23" selection-start-column="0" selection-end-line="26" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -91,9 +87,9 @@
         <option value="$PROJECT_DIR$/js/chat.js" />
         <option value="$PROJECT_DIR$/details.html" />
         <option value="$PROJECT_DIR$/css/chat.css" />
-        <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/chat.html" />
         <option value="$PROJECT_DIR$/console.html" />
+        <option value="$PROJECT_DIR$/login.html" />
       </list>
     </option>
   </component>
@@ -294,14 +290,7 @@
       <workItem from="1479107175349" duration="1373000" />
       <workItem from="1479280452168" duration="2047000" />
       <workItem from="1479307422344" duration="1825000" />
-      <workItem from="1479479635516" duration="26652000" />
-    </task>
-    <task id="LOCAL-00008" summary="attempt to fix mixed content error">
-      <created>1474220975154</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1474220975154</updated>
+      <workItem from="1479479635516" duration="26811000" />
     </task>
     <task id="LOCAL-00009" summary="attempt to fix mixed content error">
       <created>1474221034486</created>
@@ -639,11 +628,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479662241561</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="fix some linx">
+      <created>1479662361209</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1479662361209</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98233000" />
+    <option name="totallyTimeSpent" value="98392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="737" extended-state="0" />
@@ -697,7 +693,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix mobile captcha" />
     <MESSAGE value="fix layout on firefox" />
     <MESSAGE value="add terms and conditions agreement to login page" />
     <MESSAGE value="add basic console layout" />
@@ -722,7 +717,8 @@
     <MESSAGE value="add dynamic names" />
     <MESSAGE value="add chat page" />
     <MESSAGE value="redesign chat menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="redesign chat menu" />
+    <MESSAGE value="fix some linx" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix some linx" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1059,22 +1055,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="26" column="1" selection-start-line="23" selection-start-column="0" selection-end-line="26" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chat.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -1091,6 +1071,22 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#li#1;n#ul#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#1;n#li#1;n#ul#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="1" selection-start-line="23" selection-start-column="0" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
