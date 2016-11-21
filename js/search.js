@@ -30,6 +30,14 @@ function init() {
     } );
 }
 
+function setupAutocomplete() {
+    AutoComplete({
+        EmptyMessage: "Naprava s tem imenom ne obstaja",
+        Url: "https://api.autocomplete-js.com",
+        Limit: 5,
+    }, "#device_picker");
+}
+
 $(document).ready(function () {
 
     init();
@@ -39,6 +47,8 @@ $(document).ready(function () {
         var q = getUrlVars()['q'];
         $("iframe").contents().find("#search_bar_input").val(q);
     }, 1000);
+
+    setupAutocomplete();
 });
 
 
