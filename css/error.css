@@ -1,0 +1,17 @@
+html, body, body > div {
+    height: 100%;
+    min-height: 100%;
+}
+
+h2, .row {
+    margin-bottom: 0;
+}
+
+h5 {
+    margin-top: 8px;
+    font-size: 22px;
+}
+
+.links {
+    margin-top: 16px;
+}
